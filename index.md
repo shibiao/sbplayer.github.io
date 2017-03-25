@@ -13,8 +13,4 @@
 
 ***
 
-作者石彪 现工作在深圳
-
-![github](https://github.com/shibiao)
-![简书](http://www.jianshu.com/u/8ca55c7650f3)
 
