@@ -1,6 +1,3 @@
-
-[macOS 增加一款支持全格式、界面时尚、播放流畅的视频播放器](1).
-
 <dl>
 <dt>姓名</dt>
 <dd>石彪</dd>
@@ -10,10 +7,9 @@
 <dd>中国</dd>
 </dl>
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
 
-```
-The final element.
-```
+[macOS 增加一款支持全格式、界面时尚、播放流畅的视频播放器](1).
+内容简介：历时2个月的时间，终于设计和开发完成一款符合自己要求的视频播放器。在开发这款播放器之前，我对播放器的期望是：这款播放器的界面一定不能和Mac AppStore上绝大多数视频播放器那样界面丑陋，极度不够人性化，而且要符合国人的口味，界面皮肤可以更换，让喜欢不同颜色界面的人都能找到自己喜欢的样式，速度要快，支持几乎所有格式。正所谓好马配好鞍，为了适配优雅细腻的macOS，所以就开发了SBPlayer
+
+
+
