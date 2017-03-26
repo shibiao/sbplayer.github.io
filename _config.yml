@@ -2,4 +2,4 @@ title: SBPlayer
 description: A beautiful video player
 show_downloads: true
 google_analytics:
-theme: 
+theme: jekyll-theme-minimal
