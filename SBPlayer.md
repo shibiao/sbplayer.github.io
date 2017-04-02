@@ -27,10 +27,6 @@
 
 *webm.*rmvb.*.asf *.avi *.divx *.dv *.flv *.gxf *.m1v *.m2v *.m2ts *.m4v *.mkv *.mov *.mp2 *.mp4 *.mpeg *.mpeg1 *.mpeg2 *.mpeg4 *.mpg *.mts *.mxf *.ogg *.ogm *.ps *.ts *.vob *.wmv *.a52 *.aac *.ac3 *.dts *.flac *.m4a *.m4p *.mka *.mod *.mp1 *.mp2 *.mp3 *.ogg等等由于是基于VLC所开发的播放器，所以理论上VLC支持的格式SBPlayer也完全支持，SBPlayer也可以播放视频流格式，HTTP、RTMP、m3u8、mms等等格式，不过rtsp格式暂时还有点问题。
 
-#### 浅谈对滥用第三方库的看法
-
-作为本地视频播放格式个人感觉非常完美,SBPlayer除去用的第三方库，总共代码1000多行，不到2000行，但依然超出了自己的预计的代码量，用OC还是挺耗行数的，另外自己逻辑能力还不够强，多增加了不少代码。OC用久了，形成了依赖，但更喜欢Swift,期待更稳定的Swift4.0发布，让代码变的少之又少。一个程序员代码写的太多绝不是优秀的程序员，更有点逻辑混乱的意味。未来开发对自己的要求是尽量少用或者不用第三方库，很多功能很简单完全没必要用太复杂的库，比如网络请求AFNetworking,一般网络请求自己写一个代码更少，网络缓存之类的都很好做，出了Bug可以很好的定位。还有关于约束，比较有名的就Masonry和SDAutolayout,然而毕竟是第三方库，自从ios9后苹果新增加了一种类似于Masonry的约束框架，完全可以媲美Masonry，当ios11快出来后，最低开发版本就可以定位ios9，Masonry也就没什么必要了，另外等Swift再次更新时，相信SBAutolayout再简便，Swift系统自带约束也完全可以替代。在很早之前UITableView和UICollectionView的动态cell行高，用系统方法一行或者二行代码就可以搞定，很好奇为什么UITableView-FDTemplateLayoutCell这个自动约束的第三方库为什么这么多人用，系统能一步解决的问题，为什么还要下载个庞大的第三方库复杂的完成它。很多有名第三方库，在那些作者开发时也许很有必要，但iOS sdk本身就是个动态改进和升级的过程，以前难解决的问题，系统已经加入更好的方法完成它，这些第三方库或许已经完成了它的历史任务，再用它就显得画蛇添足了。
-
 
 >对喜欢换个口味的用户到时候可以试试看。
 >> 源码： https://github.com/shibiao/SBPlayerClient
