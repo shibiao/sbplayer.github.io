@@ -33,6 +33,7 @@
 
 
 >对喜欢换个口味的用户到时候可以试试看。
+>> 源码： https://github.com/shibiao/SBPlayerClient
 
 最近做的一个用Swift写的开源的mac端cocoapods助手很快也将做完，使用它让利用cocoapods导入第三方库将更简单
 
