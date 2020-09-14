@@ -2,6 +2,8 @@
 
 > 创建令人印象深刻的思维导图
 
+##### Mac App Store 下载地址： https://apps.apple.com/cn/app/miraculousnode-%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/id1531546030?mt=12
+
 ###### MiraculousNode拥有精美的皮肤可以选择
 
 ![1](https://img.alicdn.com/imgextra/i1/671706755/O1CN01oNiE4E1zlq2xr1L2Y_!!671706755.png)
